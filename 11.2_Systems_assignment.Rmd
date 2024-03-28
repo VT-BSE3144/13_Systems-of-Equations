@@ -1,0 +1,45 @@
+---
+title: "Assignment - Systems of Equations"
+output: pdf_document
+date: "`r Sys.Date()`"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(pracma)
+```
+
+## Problem 1
+
+Solve the following system of equations. 
+
+  (a) put into matrix notation. 
+  (b) solve using left division; 
+  (c) solve using matrix inversion.
+
+$$
+\begin{split}
+7x_1 + 2x_2 -3x_3 = -12 \\
+5x_2 + 3x_3 + 2x_1 = -20 \\ 
+-26 = -6x_3 - x_2 + x_1
+\end{split}
+$$
+
+## Problem 2
+
+Perform case study 11.3 (below) in R. Include a figure and a complete, documented solution.
+
+![](figures/fig_pr2.1.png)
+![](figures/fig_pr2.2.png)
+![](figures/fig_pr2.3.png)
+
+![](figures/fig_pr2.4.png)
+
+## Problem 3
+
+A mixing operation in a distillery is depicted below. The rate of transfer of a key flavoring compound through each pipe is equal to the total volumetric flow rate (Q, with units of mL per second) multiplied by the concentration of the compound in the tank from which the flow originates (c, with units of milligrams per mL). If the system is at a steady state, the transfer into each reactor will balance the transfer out, and the total volume of the tanks don't change. Develop a mass-balance equation (assuming constant volume, and therefore total volume is conserved) for each reactor and solve the three simultaneous linear algebraic equations for their concentrations. 
+
+The flow rates are all given below in mL/s:
+$$Q_{21} =32,Q_{23} =58,Q_{12} =88,Q_{13} =40,Q_{33} =122$$
+![](figures/fig_pr3.png)
+
