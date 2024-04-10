@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 #This week's prep:
 (Also found on Week 13 Canvas page)
 
-#Required reading:
+--> Required reading:
 
 1. Primer - why are we doing this? -https://drive.google.com/file/d/132NvRrMVbBYNex5iNhoeBwC1ck5MZMAB/view?usp=sharing 
 
@@ -22,7 +22,7 @@ https://drive.google.com/file/d/132NvRrMVbBYNex5iNhoeBwC1ck5MZMAB/view?usp=shari
 3. Matrix operations in R - 
 https://www.tutorialkart.com/r-tutorial/r-matrix/ 
 
-#Optional resources: 
+--> Optional resources: 
 (these materials will be reviewed in class, but are here if you want to get a head start)
 
 1. Matrix overview slides - https://docs.google.com/presentation/d/1Dp0XE1iyCFbnKjpW4kCnsMJ9ldn0cEAL?rtpof=true&authuser=wrightrc%40vt.edu&usp=drive_fs 
