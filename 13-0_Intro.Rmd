@@ -8,8 +8,9 @@ output: pdf_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+This week, we will be focusing on Systems of Equations in R. Please review the following readings to refresh your algebra skills. 
 
-#This week's prep:
+This week's prep:
 (Also found on Week 13 Canvas page)
 
 --> Required reading:
