@@ -1,6 +1,6 @@
 ---
 title: "13-2 Problem Set"
-author: "Clay Wright"
+author: 
 format: pdf
 ---
 

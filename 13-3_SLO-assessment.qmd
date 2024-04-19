@@ -1,0 +1,23 @@
+---
+title: "13-3 SLO1 assessment"
+author: 
+format: pdf
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(pracma)
+```
+
+## Problem Statement
+
+A mixing operation in a plant is depicted below. The rate of transfer of a key compound through each pipe is equal to the total volumetric flow rate (Q, with units of mL per second) multiplied by the concentration of the compound in the tank from which the flow originates (c, with units of milligrams per mL). You can assume the system is at a steady state, the inlet flow rate(s) into each tank will be balanced by the outlet flow rate(s), and the total volume of the tanks don't change. You can also assume constant volume, and therefore total volume is conserved.
+
+Using a linear (matrix) algebra approach, set up the systems of equations governing this set of mixing tanks and find the concentration of the compound in each tank, $c_1$, $c_2$, and $c_3$.
+
+The flow rates are all given below in mL/s:
+$$Q_{21} =32,Q_{23} =58,Q_{12} =88,Q_{13} =40,Q_{33} =122$$
+![](figures/fig_pr3.png)
+
+## Solution
+(You can include hand-written equations by uploading a photo of your notes).
