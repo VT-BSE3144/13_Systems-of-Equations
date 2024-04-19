@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(pracma)
 ```
 
-## Examples
+## Example 1
 
 Imagine you have a simple set of equations, and you plot them out. The solution is at the intersection if you plot them. Let's solve using matrix algebra:
 
@@ -41,7 +41,7 @@ X <- solve(A,B)
 X
 ```
 
-### Example 2
+## Example 2
 
 $$
 \eqalign{
@@ -62,7 +62,7 @@ x
 
 
 
-### Example 3 (Problem 11.3)
+## Example 3 (Problem 11.3 in Chapra)
 
 ![](figures/fig_ex3.png)
 
