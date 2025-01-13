@@ -1,6 +1,5 @@
 ---
 title: "13-3 SLO1 assessment"
-author: 
 format: pdf
 ---
 
