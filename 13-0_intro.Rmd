@@ -1,15 +1,15 @@
 ---
-title: "13-0_intro"
-author: "Clay Wright"
-format: 
-  html:
-    df_print: paged
-    toc: true
-    toc-depth: 6
+output: html_document
+params:
+  version: 1.0
 ---
+
+# Systems of Equations
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
 This week, we will be focusing on Systems of Equations in R. Please review the following readings to refresh your linear algebra skills. 
 
 ## This week's prep:

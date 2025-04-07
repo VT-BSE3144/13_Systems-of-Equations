@@ -1,12 +1,10 @@
 ---
-title: "13-1 Examples"
-author: "Clay Wright"
-format: pdf
-#  html:
-#    df_print: paged
-#    toc: true
-#    toc-depth: 6
+output: html_document
+params:
+  version: 1.0
 ---
+
+# Systems of Equations Examples {.unnumbered}
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
